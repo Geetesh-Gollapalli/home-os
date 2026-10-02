@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- LAYER 1: Outer Neon Cyber Ring -->
+    <path
+        android:pathData="M54,22 A32,32 0 1,1 53.9,22"
+        android:strokeWidth="1.8">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="22"
+                android:startY="22"
+                android:endX="86"
+                android:endY="86"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F2FE" />
+                <item android:offset="0.5" android:color="#7C3AED" />
+                <item android:offset="1.0" android:color="#FF0844" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- LAYER 2: Isometric 3D Roof Apex Top Facet -->
+    <path android:pathData="M54,20 L78,34 L54,48 L30,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="20"
+                android:endX="78"
+                android:endY="48"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F2FE" />
+                <item android:offset="0.5" android:color="#4FACFE" />
+                <item android:offset="1.0" android:color="#00F5A0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- LAYER 3: Isometric 3D Roof Right Shaded Facet -->
+    <path android:pathData="M54,48 L78,34 L78,52 L54,66 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="34"
+                android:endX="78"
+                android:endY="66"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#7C3AED" />
+                <item android:offset="1.0" android:color="#4A00E0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- LAYER 4: Isometric 3D Roof Left Shaded Facet -->
+    <path android:pathData="M54,48 L30,34 L30,52 L54,66 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="34"
+                android:endX="54"
+                android:endY="66"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#2563EB" />
+                <item android:offset="1.0" android:color="#1D4ED8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- LAYER 5: Left Isometric Column (Outer Face) -->
+    <path android:pathData="M30,52 L30,76 L18,68 L18,44 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="18"
+                android:startY="44"
+                android:endX="30"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#3B82F6" />
+                <item android:offset="1.0" android:color="#1E3A8A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- LAYER 6: Left Isometric Column (Inner Face) -->
+    <path android:pathData="M30,52 L42,60 L42,84 L30,76 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="52"
+                android:endX="42"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#60A5FA" />
+                <item android:offset="1.0" android:color="#2563EB" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- LAYER 7: Right Isometric Column (Outer Face) -->
+    <path android:pathData="M78,52 L90,44 L90,68 L78,76 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="78"
+                android:startY="44"
+                android:endX="90"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#8B5CF6" />
+                <item android:offset="1.0" android:color="#5B21B6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- LAYER 8: Right Isometric Column (Inner Face) -->
+    <path android:pathData="M78,52 L66,60 L66,84 L78,76 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="66"
+                android:startY="52"
+                android:endX="78"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#A78BFA" />
+                <item android:offset="1.0" android:color="#7C3AED" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- LAYER 9: Interlocking 3D Central Bridge -->
+    <path android:pathData="M42,60 L66,60 L66,72 L42,72 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42"
+                android:startY="60"
+                android:endX="66"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#EC4899" />
+                <item android:offset="0.5" android:color="#FF0844" />
+                <item android:offset="1.0" android:color="#F43F5E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- LAYER 10: Glowing Central Energy Core -->
+    <path android:pathData="M54,66m-6,0a6,6 0 1,0 12,0a6,6 0 1,0 -12,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="60"
+                android:endX="60"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="0.5" android:color="#00F2FE" />
+                <item android:offset="1.0" android:color="#00F5A0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- LAYER 11: Glowing Circuit Connections & Pulsing Node Spheres -->
+    <!-- Left Top Circuit Line -->
+    <path
+        android:pathData="M18,44 L28,34 M90,44 L80,34"
+        android:strokeWidth="2"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="18"
+                android:startY="34"
+                android:endX="90"
+                android:endY="44"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F2FE" />
+                <item android:offset="1.0" android:color="#00F5A0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Pulsing Cyan Node (Left) -->
+    <path android:pathData="M18,44m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" android:fillColor="#00F2FE" />
+
+    <!-- Pulsing Emerald Node (Right) -->
+    <path android:pathData="M90,44m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" android:fillColor="#00F5A0" />
+
+    <!-- Pulsing Magenta Node (Bottom Left) -->
+    <path android:pathData="M30,76m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" android:fillColor="#FF0844" />
+
+    <!-- Pulsing Violet Node (Bottom Right) -->
+    <path android:pathData="M78,76m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" android:fillColor="#A78BFA" />
+
+</vector>

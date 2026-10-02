@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Deep Space Cyber Backdrop -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#070814" />
+                <item android:offset="0.5" android:color="#0F1026" />
+                <item android:offset="1.0" android:color="#050610" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer Tech Radial Aura & Cyber Glow -->
+    <path android:pathData="M54,54m-44,0a44,44 0 1,0 88,0a44,44 0 1,0 -88,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="10"
+                android:endX="54"
+                android:endY="98"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#357C3AED" />
+                <item android:offset="0.5" android:color="#1A00F2FE" />
+                <item android:offset="1.0" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Intricate Tech Precision Grid Marks -->
+    <path
+        android:pathData="M54,18 L54,22 M54,86 L54,90 M18,54 L22,54 M86,54 L90,54 M28,28 L31,31 M80,80 L77,77 M80,28 L77,31 M28,80 L31,77"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="18"
+                android:startY="18"
+                android:endX="90"
+                android:endY="90"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#607C3AED" />
+                <item android:offset="1.0" android:color="#6000F2FE" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

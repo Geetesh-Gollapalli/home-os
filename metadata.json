@@ -1,0 +1,6 @@
+{
+  "name": "Home OS",
+  "description": "Smart, warm Family Home Operating System with tasks, shopping, contacts, WhatsApp & phone integration, and home screen widgets",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

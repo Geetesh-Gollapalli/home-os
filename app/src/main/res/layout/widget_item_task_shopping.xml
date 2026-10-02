@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_item_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/widget_button_background"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="12dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="12dp"
+    android:paddingBottom="10dp"
+    android:layout_marginBottom="6dp">
+
+    <!-- Type Badge Indicator -->
+    <TextView
+        android:id="@+id/widget_item_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#EDE7F6"
+        android:paddingStart="6dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="6dp"
+        android:paddingBottom="2dp"
+        android:text="TASK"
+        android:textColor="#5B5BD6"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <!-- Title and Subtitle / Detail -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/widget_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Item Title"
+            android:textColor="#1F2024"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/widget_item_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Details"
+            android:textColor="#74777F"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <!-- Visual status circle -->
+    <TextView
+        android:id="@+id/widget_item_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="•"
+        android:textColor="#5B5BD6"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
